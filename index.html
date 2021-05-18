@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <h2 class="mb-3">Checkout</h2>
+    <h2 class="mb-5">Checkout</h2>
   </div>
   
   <div class="content1 container">
@@ -60,7 +60,10 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Save this information for next time</label>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+        <div class="text-right">
+          <button type="submit" class="btn btn-warning btn-lg ">Continue</button>
+        </div>
+        
       </form>
     </div>
 
@@ -71,18 +74,25 @@
         <div class="col">
           <p>Vintage Backbag</p>
           <p><span>$54.99</span> <span>$94.99</span></p>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+          </div>
         </div>
       </div>
-      <br>
       <div class="row">
         <div class="col"><img class="img-fluid rounded" src="./assets/img/photo2.png" alt="" style="max-width: 50%"></div>
         <div class="col">
           <p>Vintage Backbag</p>
           <p><span>$54.99</span> <span>$94.99</span></p>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+          </div>
         </div>
       </div>
-      <div></div>
-      <div></div>
     </div>
   </div>
 
@@ -93,5 +103,6 @@
 <footer class="text-center mt-3">
   <p>created by <a class="link" href="https://github.com/drbv27">Diego Bonilla</a> - devChallenges.io</p>
 </footer>
+<script src="./assets/app.js"></script>
 </body>
 </html>
