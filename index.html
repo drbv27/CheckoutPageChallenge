@@ -10,27 +10,79 @@
   <title>CheckoutPage</title>
 </head>
 <body>
-  <div class="text-center mb-5">Checkout</div>
-  <div class="container">
-    <div class="row">
-      <div class="col"><img class="img-fluid rounded" src="./assets/img/photo1.png" alt=""></div>
-      <div class="col">
-        <p>Vintage Backbag</p>
-        <p><span>$54.99</span> <span>$94.99</span></p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col"><img class="img-fluid rounded" src="./assets/img/photo2.png" alt=""></div>
-      <div class="col">
-        <p>Vintage Backbag</p>
-        <p><span>$54.99</span> <span>$94.99</span></p>
-      </div>
+  <div class="content1 container">
+
+    <div class="info">
+      <h2 class="mb-3">Checkout</h2>
+      <form>
+        <div class="form-group">
+          <h5>Contact information</h5>
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="phone" class="form-control" id="phone">
+        </div>
+      </form>
+
+      <form class="mt-3">
+        <div class="form-group">
+          <h5>Shipping address</h5>
+          <label for="fname">Fullname</label>
+          <input type="text" class="form-control" id="fname" aria-describedby="">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address">
+        </div>
+        <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="zipCode">Postal Code</label>
+            <input type="password" class="form-control" id="zipCode">
+          </div>
+          </div>
+
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Save this information for next time</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+      </form>
     </div>
 
-    <div></div>
-    <div></div>
+    <div class="container">
+      <div class="row">
+        <div class="col"><img class="img-fluid rounded" src="./assets/img/photo1.png" alt=""></div>
+        <div class="col">
+          <p>Vintage Backbag</p>
+          <p><span>$54.99</span> <span>$94.99</span></p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col"><img class="img-fluid rounded" src="./assets/img/photo2.png" alt=""></div>
+        <div class="col">
+          <p>Vintage Backbag</p>
+          <p><span>$54.99</span> <span>$94.99</span></p>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
+
+  
+
 
 
 <footer class="text-center">
