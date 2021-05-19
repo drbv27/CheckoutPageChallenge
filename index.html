@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <title>CheckoutPage</title>
@@ -22,7 +23,14 @@
         <div class="form-group">
           <h5>Contact information</h5>
           <label for="email">E-mail</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <div class="input-group">
+          <span>
+            <i class="bi bi-envelope-fill"></i>
+          </span>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Your Email...">
+          </div>
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Your Email...">
         </div>
         <div class="form-group">
           <label for="phone">Phone</label>
