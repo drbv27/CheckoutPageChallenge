@@ -18,7 +18,7 @@
 .info{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 1px;
     width: 60%;
 }
 
@@ -29,7 +29,7 @@ textarea {
   box-sizing: border-box;
   margin: 0;
   outline: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 input[type="button"] {
@@ -44,7 +44,7 @@ input::-webkit-inner-spin-button {
 
 .input-group {
   clear: both;
-  margin: 15px 0;
+  margin: 1px 0;
   position: relative;
 }
 
