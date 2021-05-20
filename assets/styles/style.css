@@ -1,3 +1,40 @@
+.title, .subtitle, .product,input::placeholder, i, .price1, .price2, .descriptionW, .netprice {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.title{
+  font-size: 36px;
+  line-height: 43.88px;
+}
+.subtitle, .descriptionW{
+  font-size:18px;
+  line-height: 21.94px;
+}
+
+label, .price2 {
+  font-size:12px;
+  line-height: 14.63px;
+}
+
+input::placeholder, i, .product, .price1 {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+.price1 {
+  color:peru
+}
+.price2{
+  text-decoration:line-through;
+}
+.netprice {
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+
+
 .content1 {
     display: flex;
     width: 100%;

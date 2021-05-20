@@ -5,21 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <title>CheckoutPage</title>
 </head>
 <body>
-  <div class="container">
-    <h2 class="mb-5">Checkout</h2>
+  <div class="container title">
+    Checkout
   </div>
   
   <div class="content1 container">
     
     
     <div class="info">
-      <h5 class="mb-3">Contact information</h5>
+      <div class="mt-5 mb-3 subtitle">Contact information</div>
       <label for="email1">Email</label>
       <div class="input-group mb-3" id="email1">
         <span class="input-group-text" id="basic-addon1">
@@ -35,7 +37,7 @@
         <input type="text" class="form-control" placeholder="Enter your Phone..." aria-label="Input group example" aria-describedby="basic-addon1">
       </div>
 
-      <h5 class="mt-5 mb-3">Shipping address</h5>
+      <div class="mt-5 mb-3 subtitle">Shipping address</div>
       <label for="fname">Fullname</label>
       <div class="input-group mb-3" id="fname">
         <span class="input-group-text" id="basic-addon1">
@@ -78,8 +80,8 @@
       <div class="row">
         <div class="col"><img class="img-fluid rounded" src="./assets/img/photo1.png" alt="" style="max-width: 50%"></div>
         <div class="col">
-          <p>Vintage Backbag</p>
-          <p><span>$54.99</span> <span>$94.99</span></p>
+          <p class="product">Vintage Backbag</p>
+          <p><span class="price1">$54.99</span> <span class="price2">$94.99</span></p>
           <div class="input-group">
             <input type="button" value="-" class="button-minus" data-field="quantity">
             <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
@@ -90,8 +92,8 @@
       <div class="row">
         <div class="col"><img class="img-fluid rounded" src="./assets/img/photo2.png" alt="" style="max-width: 50%"></div>
         <div class="col">
-          <p>Vintage Backbag</p>
-          <p><span>$54.99</span> <span>$94.99</span></p>
+          <p class="product">Levi Shoes</p>
+          <p><span class="price1">$74.99</span> <span class="price2">$124.99</span></p>
           <div class="input-group">
             <input type="button" value="-" class="button-minus" data-field="quantity">
             <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
@@ -102,12 +104,12 @@
       <div>
         <table class="table">
           <tr>
-            <td>Shipping</td>
-            <td>$19</td>
+            <td class="descriptionW">Shipping</td>
+            <td class="netprice">$19</td>
           </tr>
           <tr>
-            <td>Total</td>
-            <td>$148.98</td>
+            <td class="descriptionW">Total</td>
+            <td class="netprice">$148.98</td>
           </tr>
         </table>
       </div>
