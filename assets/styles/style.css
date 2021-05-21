@@ -131,6 +131,10 @@ footer {
   color: #BDBDBD
 }
 
+footer a {
+  color: #BDBDBD;
+}
+
 @media screen and (max-width:900px){
   .titulo{
       font-size: 24px;
