@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant Challenge</h1>
+<h1 align="center">Checkout Challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://boring-chandrasekhar-380ea0.netlify.app/">
+    <a href="https://zen-hamilton-ab5318.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/drbv27/InteriorConsultantCh">
+    <a href="https://github.com/drbv27/CheckoutPageChallenge">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
@@ -36,20 +36,18 @@
 
 ## Overview
 
-![screenshot](https://github.com/drbv27/InteriorConsultantCh/blob/main/assets/img/PCScreen.jpeg)
-![screenshot](https://github.com/drbv27/InteriorConsultantCh/blob/main/assets/img/MobileScreen.jpeg)
-![screenshot](https://github.com/drbv27/InteriorConsultantCh/blob/main/assets/img/MobileMenu.jpeg)
+![screenshot](https://github.com/drbv27/CheckoutPageChallenge/blob/main/assets/img/mobileScreen.png)
+![screenshot](https://github.com/drbv27/CheckoutPageChallenge/blob/main/assets/img/fullScreen.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-The site demo it's [here](https://boring-chandrasekhar-380ea0.netlify.app/)
+The site demo it's [here](https://zen-hamilton-ab5318.netlify.app/)
 - What was your experience?
-I use Bootstrap to make this project and Use some Own CSS too.
-- What have you learned/improved?
+I use Bootstrap flexbox and media queries to do this challenge
 Bootstrap 4.
-Bootstrap Grid.
-CSS Position
+Flexbox
+Icons
 - Your wisdom? :)
 Better use of Bootstrap
 
@@ -66,7 +64,7 @@ Better use of Bootstrap
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
 ## Acknowledgements
 
